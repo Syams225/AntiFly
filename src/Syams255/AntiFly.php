@@ -12,7 +12,7 @@ use pocketmine\math\Vector3;
 use pocketmine\Player;
 use Pocketmine\Server;
 use pocketmine\block\Block;
-class Main extends PluginBase Implements Listener {
+class AntiFly extends PluginBase Implements Listener {
    public function onEnable() {
     $this->getServer()->getPluginManager()->registerEvents($this, $this);
      $this->getLogger()->info("Enabled");
